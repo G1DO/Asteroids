@@ -3,6 +3,7 @@
 # throughout this file
 import pygame
 from constants import * 
+from player import Player
 
 
 
@@ -15,6 +16,8 @@ def main():
 
     pygame.init()  # sets up pygame's internal systems (graphics, sound, input, etc.)
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+
 
 
     clock = pygame.time.Clock()  # ⏱️ Clock object to control FPS
@@ -27,9 +30,9 @@ def main():
             if event.type == pygame.QUIT:
                 return  # exit the main() function
             
-        screen.fill((0, 0, 0))  # fill the screen with black
-        pygame.display.flip()  # update the screen
-
+        screen.fill((0, 0, 0))   # خلفية سوداء
+        player.draw(screen)      # ارسم السفينة
+        pygame.display.flip()    # اعرض التحديث
         clock.tick(60)  # limit to 60 FPS
         dt = clock.get_time() / 1000  # delta time in seconds
 if __name__ == "__main__":
