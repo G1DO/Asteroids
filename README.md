@@ -1,7 +1,3 @@
-Here's a basic **README** template for your Asteroids game project:
-
----
-
 # Asteroids Game
 
 A classic Asteroids game built using Python and Pygame. This project showcases core game mechanics like movement, collision detection, shooting, and object splitting, all while using the `pygame` library for game graphics and interaction.
