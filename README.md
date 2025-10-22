@@ -23,7 +23,7 @@ To get started with the Asteroids game on your local machine, follow these steps
 
    ```bash
    git clone https://github.com/G1DO/Asteroids.git
-````
+   ```
 
 2. **Navigate to the project directory:**
 
@@ -106,5 +106,3 @@ In this game, you control a spaceship that can rotate and move in space. Your mi
 Watch the demo of the game here:
 
 [![Watch the video](https://img.youtube.com/vi/YFVrMwVJ5cQ/maxresdefault.jpg)](https://youtu.be/YFVrMwVJ5cQ)
-
-
