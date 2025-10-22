@@ -11,6 +11,7 @@ A classic Asteroids game built using Python and Pygame. This project showcases c
 3. [Gameplay](#gameplay)
 4. [Features](#features)
 5. [Technologies](#technologies)
+6. [Video Demo](#video-demo)
 
 ---
 
@@ -22,7 +23,7 @@ To get started with the Asteroids game on your local machine, follow these steps
 
    ```bash
    git clone https://github.com/G1DO/Asteroids.git
-   ```
+````
 
 2. **Navigate to the project directory:**
 
@@ -69,7 +70,6 @@ To get started with the Asteroids game on your local machine, follow these steps
    ```bash
    python main.py
    ```
-   ```
 
 ---
 
@@ -98,4 +98,12 @@ In this game, you control a spaceship that can rotate and move in space. Your mi
 * **Python**: The main programming language used.
 * **Pygame**: A Python library used for game development, providing graphics, event handling, and other game mechanics.
 * **Pygbag**: For building the game into a web version (HTML, JS).
+
+---
+
+## Video Demo
+
+Watch the demo of the game here:
+
+[![Watch the video](https://img.youtube.com/vi/YFVrMwVJ5cQ/maxresdefault.jpg)](https://youtu.be/YFVrMwVJ5cQ)
 
